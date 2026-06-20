@@ -1,9 +1,9 @@
 import React from 'react'
-import "../app.css";
+import "../App.css";
 import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
-
+        const navigate = useNavigate()
     return (
         <>
             <div className='container-fluid' >

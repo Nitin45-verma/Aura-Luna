@@ -9,8 +9,8 @@ import Heroimg from '../assets/Hall-sofa.jpg'
 import chair from '../assets/Chair-1.jpg'
 import MarbleTable from '../assets/Marble-Table.jpg'
 import color1 from '../assets/color-4.png'
-import color2 from '../assets/Color-2.avif'
-import color3 from '../assets/Color-3.avif'
+import color2 from '../assets/color-2.avif'
+import color3 from '../assets/color-3.avif'
 import color5 from '../assets/color-5.png'
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
@@ -23,6 +23,7 @@ const Home = () => {
             <Navbar />
             {/* Hero section */}
             <motion.div
+            
                 initial={{ opacity: 0, y: 50, scale: 0.8 }}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ duration: 1 }}
