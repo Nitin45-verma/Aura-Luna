@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Signup from './Pages/Signup';
 import Profile from './Pages/Profile';
 import './index.css'
+import About from './Pages/About';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
                 <Route path='/bespoke' element={<Bespoke />} />
                 <Route path='/signup' element={<Signup />} />
                 <Route path='/profile' element={<Profile />} />
+                <Route path='/about' element={<About />} />
             </Routes>
         </BrowserRouter>
     )

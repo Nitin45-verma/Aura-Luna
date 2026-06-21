@@ -3,12 +3,6 @@
     margin: 0px;
     padding: 0px;
 }
-/* Navbar css */
-.logo{
-    position: sticky;
-    top: 0px;
-    z-index: 10;
-}
 /* Home page css */
 .top-main{
     position: relative;

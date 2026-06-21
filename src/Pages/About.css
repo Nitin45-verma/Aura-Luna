@@ -1,0 +1,75 @@
+/* Heading */
+.main-text {
+    font-size: 70px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.text1{
+    font-size: 17px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Second Section */
+.imgtext {
+    /* padding: 30px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imgtext h2 {
+    font-size: 45px;
+    /* margin-bottom: 20px; */
+}
+
+.imgtext p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.side-image {
+    width: 90%;
+    height: auto;
+}
+
+
+.imgbig {
+    width: 100%;
+    max-height: 700px;
+}
+
+.sidetext {
+    font-size: 20px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+.sideimgsecond {
+    width: 100%;
+    max-width: 400px;
+}
+
+.box {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid silver;
+}
+
+.textniche {
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.fiximg{
+    width: 100% !important;  
+}
+
+
+@media (max-width: 600px) {
+    .main-text{
+        font-size: 40px;
+    }
+    
+}
+

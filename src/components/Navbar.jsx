@@ -7,7 +7,7 @@ import '/src/App.css'
 const Navbar = () => {
   return (
     <>
-      <div className="logo">
+      <div  style={{position:"sticky" ,top:"0px", zIndex:"10"}} >
         <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{ height: "50px" }} >
           <div className="container">
             <a className="navbar-brand" href="#" style={{ fontSize: "32px", fontFamily: 'Hanken Grotesk' }}>AURÆ LUNA</a>
@@ -26,14 +26,13 @@ const Navbar = () => {
                   <NavLink className="nav-link active" aria-current="page" to={'/bespoke'}>BESPOKE</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link active" aria-current="page" to={'/'}>ABOUT</NavLink>
+                  <NavLink className="nav-link active" aria-current="page" to={'/about'}>ABOUT</NavLink>
                 </li>
-                
+
               </ul>
               <form className="d-flex" role="search">
-                <button className="btn" style={{ fontSize: "15PX" }} type="submit">CART <ShoppingCart /></button>
+                <button className="btn" style={{ fontSize: "15PX" }} type="submit"><ShoppingCart /></button>
               </form>
-
               <button className='singup-buttton'><NavLink className="nav-link active" aria-current="page" to={'/signup'}>SING UP</NavLink></button>
             </div>
           </div>

@@ -9,7 +9,7 @@ const Signup = () => {
             <div className='container-fluid' >
                 <div className="row">
                     <div className="col-lg-6 col-md-12 col-sm-12 imgcontent">
-                        <img style={{ width: "100%", height: "100vh" }} src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaLw3iTaZYM-nXBlqdanq3GZrxj4_1eKjYYO2KKRPMjPBgPimZwaJGLyhDcsgaWHRPRwko44_pHnQ26w8yPnc0u_jRwONwO9NGuGIoF_DzZrMIkkU9sbI0z4bKJPb-WYnIYIw-ENSf6Fw0CBw16e2TZSJ65cm69uFYDi1rza0plJiLHk1SvkurKsnRZml2P6ujhpXwP4WNYW7vcv2aM-Dt6KCnfAGZAmF2cXfiRX35x6kiPyn4_bHGk_Hi1QQJPhBrdlE_M_9ldeg" className="img-fluid rounded-start" alt="..." />
+                        <img className="img-fluid rounded-start" style={{ width: "100%", height: "100vh" }} src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaLw3iTaZYM-nXBlqdanq3GZrxj4_1eKjYYO2KKRPMjPBgPimZwaJGLyhDcsgaWHRPRwko44_pHnQ26w8yPnc0u_jRwONwO9NGuGIoF_DzZrMIkkU9sbI0z4bKJPb-WYnIYIw-ENSf6Fw0CBw16e2TZSJ65cm69uFYDi1rza0plJiLHk1SvkurKsnRZml2P6ujhpXwP4WNYW7vcv2aM-Dt6KCnfAGZAmF2cXfiRX35x6kiPyn4_bHGk_Hi1QQJPhBrdlE_M_9ldeg"  alt="..." />
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className="card-body">
@@ -44,7 +44,6 @@ const Signup = () => {
                                 </div>
                                 <div className='mainnn'>
                                     <button className='btnlast'>Continue with Google</button>
-
                                 </div>
                                 <p className='lastp'>By creating an account, you agree to our Terms of Service</p>
                             </form>

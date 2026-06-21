@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
+import Navbar from '../components/Navbar';
 import "./Profile.css"
 import lamp from "../assets/lamp.png";
 import vase from "../assets/vase.png";
+import Footer from '../components/Footer';
 
 
 
@@ -9,6 +11,7 @@ const Profile = () => {
   const [isOn, setIsOn] = useState(true);
   return (
     <>
+    <Navbar />
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -403,7 +406,7 @@ const Profile = () => {
 
         </div>
       </div>
-
+            <Footer />
     </>
   )
 }
