@@ -146,10 +146,6 @@ const Profile = () => {
         </div>
       </div>
 
-
-
-
-
       {/* #### */}
       <div className=" min-vh-100 p-3 p-md-4" style={{ marginTop: '50px' }}>
         <div className="container-fluid p-4 p-md-5">
@@ -254,7 +250,7 @@ const Profile = () => {
               className="mb-0 text-uppercase"
               style={{
                 letterSpacing: "4px",
-                fontSize: "14PX",
+                fontSize: "14px",
               }}
             >
               PERSONAL PREFERENCE
