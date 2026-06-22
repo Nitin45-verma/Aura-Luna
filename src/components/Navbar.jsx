@@ -42,12 +42,12 @@ const Navbar = () => {
                       DESIGNERS</motion.b></NavLink>
                 </li>
                 <li >
-                  <NavLink className="nav-link active" aria-current="page" to={'/'}>
+                  <NavLink className="nav-link active" aria-current="page" to={'/bespoke'}>
                     <motion.b whileHover={{ color: "#1d4ed8" }} transition={{duration:0.7}}>
                       BESPOKE</motion.b></NavLink>
                 </li>
                 <li >
-                  <NavLink className="nav-link active" aria-current="page" to={'/'}>
+                  <NavLink className="nav-link active" aria-current="page" to={'/about'}>
                     <motion.b whileHover={{ color: "#1d4ed8" }} transition={{duration:0.7}}>
                       About</motion.b></NavLink>
                 </li>
