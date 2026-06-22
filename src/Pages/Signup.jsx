@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "../App.css";
 import { useNavigate } from 'react-router-dom';
+import { AdminContext } from '../App';
 
 const Signup = () => {
-        const navigate = useNavigate()
+    const {login,setlogin} = useContext(AdminContext)
+    const Navigate=  useNavigate()
+    const LoginHandle = (e)=>{
+        e.preventDefault()
+        const islogin = login ? '/profile': '/signup'
+        setlogin(true)
+        Navigate(islogin)
+    }
     return (
         <>
             <div className='container-fluid' >
@@ -34,7 +42,7 @@ const Signup = () => {
                                 <div className='maincontentbtn'>
                                     <div className="child">
                                         <button className='btn1'>CREATE ACCOUNT</button>
-                                        <button className='btn2' onClick={() => navigate('/profile')}>LOG IN</button>
+                                        <button className='btn2' onClick={LoginHandle}>LOG IN</button>
                                     </div>
                                 </div>
                                 <div className='linecontent'>

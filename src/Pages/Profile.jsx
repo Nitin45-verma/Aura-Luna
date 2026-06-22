@@ -161,8 +161,7 @@ const Profile = () => {
 
             <p
               className="mb-0 text-uppercase"
-              style={{ letterSpacing: "3px", fontSize: "12px" }}
-            >
+              style={{ letterSpacing: "3px", fontSize: "12px" }}>
               View All Archive (12)
             </p>
           </div>
